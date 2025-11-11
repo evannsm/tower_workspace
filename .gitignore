@@ -1,1 +1,4 @@
 *.pyc
+PX4-Autopilot/
+Micro-XRCE-DDS-Agent/
+mocap_ws/
