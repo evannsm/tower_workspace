@@ -1,64 +1,3 @@
-
-# Docker Container Setup
-## How build image and create container
-1. First build the image from the Dockerfile:
-```bash
-docker build -t ros-jazzy-osrf:<date> .
-```
-
-2. Get the image id for the created image with:
-```bash
-docker images
-```
-
-3. Then create the container and start it (run = create + start) with the appropriate mounts and settings for GUI/GPU and Networking:
-```bash
-docker run -it --privileged --gpus all \
---user "$(id -u)":"$(id -g)" \
--v ~/evanns_ws2/src/:/src/:rw \
--v /tmp/.X11-unix:/tmp/.X11-unix:ro \
--e DISPLAY=:0 \
---network host \
---ipc host \
---name=ros-jazzy-osrf <image_name/image_id>
-```
-
-4. Then connect VSCode to the running container and navigate to `/home/ubuntu/.bashrc` and add the following to the end of the file:
-```
-export ROS_DOMAIN_ID=31
-alias sim='cd /src/PX4-Autopilot && make px4_sitl gz_x500'
-alias udp='MicroXRCEAgent udp4 -p 8888'
-alias cap='cd /src/mocap_ws && source install/setup.bash'
-export PIP_BREAK_SYSTEM_PACKAGES=1
-
-```
-
-
-## How to re-connect to the container:
-1. To start a stopped container: (-ai = attach interactive. This allows you to 'attach' to the container terminal and have it take input)
-```bash
-docker start -ai ros-jazzy-osrf
-```
-
-2. To open a new shell inside a running container: (This doesn’t depend on the original process — it just launches a new Bash session inside the same running container.)
-```bash
-docker exec -it ros-jazzy-osrf bash
-```
-
-
-## Running relevant code:
-1. Source appropriate workspace and run basic controller to test:
-```bash
-ros2 run basic_clean_offboard run   --platform sim   --trajectory hover   --hover-mode 5   --log-file log.log
-```
-
-## Install jax-cpu
-1. Make sure you install the right cuda version (tutorial defaults with cuda13)
-```bash
-pip install -U "jax[cuda12]" --break-system-packages
-```
-
-
 # On Host Setup Instructions
 ## Set Up Entire Workspace
 
@@ -145,4 +84,64 @@ You should now have a workspace that roughly looks like this: (src/ has mocap_ws
     └── ros2_ws
         └── src/
             └── <other repos to be built in container>
+```
+
+
+# Docker Container Setup
+## How build image and create container
+1. First build the image from the Dockerfile:
+```bash
+docker build -t ros-jazzy-osrf:<date> .
+```
+
+2. Get the image id for the created image with:
+```bash
+docker images
+```
+
+3. Then create the container and start it (run = create + start) with the appropriate mounts and settings for GUI/GPU and Networking:
+```bash
+docker run -it --privileged --gpus all \
+--user "$(id -u)":"$(id -g)" \
+-v ~/evanns_ws2/src/:/src/:rw \
+-v /tmp/.X11-unix:/tmp/.X11-unix:ro \
+-e DISPLAY=:0 \
+--network host \
+--ipc host \
+--name=ros-jazzy-osrf <image_name/image_id>
+```
+
+4. Then connect VSCode to the running container and navigate to `/home/ubuntu/.bashrc` and add the following to the end of the file:
+```
+export ROS_DOMAIN_ID=31
+alias sim='cd /src/PX4-Autopilot && make px4_sitl gz_x500'
+alias udp='MicroXRCEAgent udp4 -p 8888'
+alias cap='cd /src/mocap_ws && source install/setup.bash'
+export PIP_BREAK_SYSTEM_PACKAGES=1
+
+```
+
+
+## How to re-connect to the container:
+1. To start a stopped container: (-ai = attach interactive. This allows you to 'attach' to the container terminal and have it take input)
+```bash
+docker start -ai ros-jazzy-osrf
+```
+
+2. To open a new shell inside a running container: (This doesn’t depend on the original process — it just launches a new Bash session inside the same running container.)
+```bash
+docker exec -it ros-jazzy-osrf bash
+```
+
+
+## Running relevant code:
+1. Source appropriate workspace and run basic controller to test:
+```bash
+ros2 run basic_clean_offboard run   --platform sim   --trajectory hover   --hover-mode 5   --log-file log.log
+```
+
+## Install jax-cpu
+1. Make sure you install the right cuda version (tutorial defaults with cuda13)
+```bash
+pip install -U "jax[cuda12]" --break-system-packages
 ```
