@@ -1,6 +1,6 @@
 # Pin base image immutably by digest
-ARG REPO=osrf/ros:jazzy-desktop-full-noble
-ARG DIGEST=sha256:d69896a85c9d545f97f40822aaeadd6a64e69f08edfb21e69e95fa7d1c9cf14e
+ARG REPO=osrf/ros:humble-desktop-full-jammy
+ARG DIGEST=sha256:257cd9b9790f4698ae5198375e3cf92a556b410b4cd1f759166b73cb963ec85d
 FROM ${REPO}@${DIGEST}
 
 ARG HOST_UID=1000
@@ -23,7 +23,7 @@ RUN groupadd -g ${HOST_GID} devgrp || true && \
     echo 'ubuntu ALL=(ALL) NOPASSWD:ALL' > /etc/sudoers.d/ubuntu && chmod 440 /etc/sudoers.d/ubuntu
 
 # Source ROS on login shells
-RUN echo "source /opt/ros/jazzy/setup.bash" > /etc/profile.d/ros_jazzy.sh
+RUN echo "source /opt/ros/humble/setup.bash" > /etc/profile.d/ros_humble.sh
 
 # RUN apt-get update && apt-get purge -y python3-numpy && apt-get autoremove -y && rm -rf /var/lib/apt/lists/*
 # System-wide JAX install (no venv) – override PEP 668

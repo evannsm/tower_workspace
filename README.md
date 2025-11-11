@@ -91,7 +91,7 @@ You should now have a workspace that roughly looks like this: (src/ has mocap_ws
 ## How build image and create container
 1. First build the image from the Dockerfile:
 ```bash
-docker build -t ros-jazzy-osrf:<date> .
+docker build -t ros-humble-osrf:<date> .
 ```
 
 2. Get the image id for the created image with:
@@ -108,7 +108,7 @@ docker run -it --privileged --gpus all \
 -e DISPLAY=:0 \
 --network host \
 --ipc host \
---name=ros-jazzy-osrf <image_name/image_id>
+--name=ros-humble-osrf <image_name/image_id>
 ```
 
 4. Then connect VSCode to the running container and navigate to `/home/ubuntu/.bashrc` and add the following to the end of the file:
@@ -125,12 +125,12 @@ export PIP_BREAK_SYSTEM_PACKAGES=1
 ## How to re-connect to the container:
 1. To start a stopped container: (-ai = attach interactive. This allows you to 'attach' to the container terminal and have it take input)
 ```bash
-docker start -ai ros-jazzy-osrf
+docker start -ai ros-humble-osrf
 ```
 
 2. To open a new shell inside a running container: (This doesn’t depend on the original process — it just launches a new Bash session inside the same running container.)
 ```bash
-docker exec -it ros-jazzy-osrf bash
+docker exec -it ros-humble-osrf bash
 ```
 
 
