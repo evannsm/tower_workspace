@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+Logger/__init__.py
+Logger/logger.py
+Logger/logtypes.py
+Logger/shutdown_helpers.py
+Logger.egg-info/PKG-INFO
+Logger.egg-info/SOURCES.txt
+Logger.egg-info/dependency_links.txt
+Logger.egg-info/entry_points.txt
+Logger.egg-info/requires.txt
+Logger.egg-info/top_level.txt
+Logger.egg-info/zip-safe
+resource/Logger

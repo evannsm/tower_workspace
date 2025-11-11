@@ -1,0 +1,68 @@
+[0.024s] Invoking command in '/src/mocap_ws/build/mocap_px4_relay': AMENT_PREFIX_PATH=/src/mocap_ws/install/px4_msgs:/src/mocap_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/px4_msgs:/src/mocap_ws/install/mocap4r2_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/px4_msgs/lib:/src/mocap_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /src/mocap_ws/src/mocap_px4_relay -DCMAKE_INSTALL_PREFIX=/src/mocap_ws/install/mocap_px4_relay
+[0.161s] -- The C compiler identification is GNU 13.3.0
+[0.292s] -- The CXX compiler identification is GNU 13.3.0
+[0.334s] -- Detecting C compiler ABI info
+[0.577s] -- Detecting C compiler ABI info - done
+[0.605s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.605s] -- Detecting C compile features
+[0.606s] -- Detecting C compile features - done
+[0.628s] -- Detecting CXX compiler ABI info
+[0.875s] -- Detecting CXX compiler ABI info - done
+[0.904s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.904s] -- Detecting CXX compile features
+[0.905s] -- Detecting CXX compile features - done
+[0.911s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.182s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.396s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.470s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.496s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.525s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.557s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.691s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.698s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.908s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.939s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.994s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.114s] -- Found px4_msgs: 2.0.1 (/src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake)
+[2.143s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.193s] -- Found mocap4r2_msgs: 0.0.3 (/src/mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[2.374s] -- Configuring done (2.3s)
+[2.406s] -- Generating done (0.0s)
+[2.416s] -- Build files have been written to: /src/mocap_ws/build/mocap_px4_relay
+[2.433s] Invoked command in '/src/mocap_ws/build/mocap_px4_relay' returned '0': AMENT_PREFIX_PATH=/src/mocap_ws/install/px4_msgs:/src/mocap_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/px4_msgs:/src/mocap_ws/install/mocap4r2_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/px4_msgs/lib:/src/mocap_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /src/mocap_ws/src/mocap_px4_relay -DCMAKE_INSTALL_PREFIX=/src/mocap_ws/install/mocap_px4_relay
+[2.435s] Invoking command in '/src/mocap_ws/build/mocap_px4_relay': AMENT_PREFIX_PATH=/src/mocap_ws/install/px4_msgs:/src/mocap_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/px4_msgs:/src/mocap_ws/install/mocap4r2_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/px4_msgs/lib:/src/mocap_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /src/mocap_ws/build/mocap_px4_relay -- -j40 -l40
+[2.564s] [ 25%] [32mBuilding CXX object CMakeFiles/full_state_relay.dir/src/full_state_relay.cpp.o[0m
+[2.577s] [ 50%] [32mBuilding CXX object CMakeFiles/optitrack_px4_relay.dir/src/optitrack_to_px4_relay.cpp.o[0m
+[12.883s] [ 75%] [32m[1mLinking CXX executable optitrack_px4_relay[0m
+[13.296s] [ 75%] Built target optitrack_px4_relay
+[15.497s] [100%] [32m[1mLinking CXX executable full_state_relay[0m
+[15.988s] [100%] Built target full_state_relay
+[16.016s] Invoked command in '/src/mocap_ws/build/mocap_px4_relay' returned '0': AMENT_PREFIX_PATH=/src/mocap_ws/install/px4_msgs:/src/mocap_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/px4_msgs:/src/mocap_ws/install/mocap4r2_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/px4_msgs/lib:/src/mocap_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /src/mocap_ws/build/mocap_px4_relay -- -j40 -l40
+[16.017s] Invoking command in '/src/mocap_ws/build/mocap_px4_relay': AMENT_PREFIX_PATH=/src/mocap_ws/install/px4_msgs:/src/mocap_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/px4_msgs:/src/mocap_ws/install/mocap4r2_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/px4_msgs/lib:/src/mocap_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /src/mocap_ws/build/mocap_px4_relay
+[16.039s] -- Install configuration: ""
+[16.039s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/launch
+[16.039s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/launch/only_full_state_relay_launch.py
+[16.040s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/launch/optitrack2_px4_relay_launch.py
+[16.040s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/config
+[16.040s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/config/optitrack2_px4_relay_params.yaml
+[16.040s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/config/vicon_px4_relay_params.yaml
+[16.040s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/lib/mocap_px4_relay/optitrack_px4_relay
+[16.048s] -- Set non-toolchain portion of runtime path of "/src/mocap_ws/install/mocap_px4_relay/lib/mocap_px4_relay/optitrack_px4_relay" to ""
+[16.048s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/lib/mocap_px4_relay/full_state_relay
+[16.056s] -- Set non-toolchain portion of runtime path of "/src/mocap_ws/install/mocap_px4_relay/lib/mocap_px4_relay/full_state_relay" to ""
+[16.056s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/ament_index/resource_index/package_run_dependencies/mocap_px4_relay
+[16.056s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/ament_index/resource_index/parent_prefix_path/mocap_px4_relay
+[16.056s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/environment/ament_prefix_path.sh
+[16.057s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/environment/ament_prefix_path.dsv
+[16.057s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/environment/path.sh
+[16.057s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/environment/path.dsv
+[16.057s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/local_setup.bash
+[16.057s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/local_setup.sh
+[16.058s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/local_setup.zsh
+[16.058s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/local_setup.dsv
+[16.058s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/package.dsv
+[16.058s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/ament_index/resource_index/packages/mocap_px4_relay
+[16.058s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/cmake/mocap_px4_relayConfig.cmake
+[16.058s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/cmake/mocap_px4_relayConfig-version.cmake
+[16.059s] -- Installing: /src/mocap_ws/install/mocap_px4_relay/share/mocap_px4_relay/package.xml
+[16.061s] Invoked command in '/src/mocap_ws/build/mocap_px4_relay' returned '0': AMENT_PREFIX_PATH=/src/mocap_ws/install/px4_msgs:/src/mocap_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/px4_msgs:/src/mocap_ws/install/mocap4r2_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/px4_msgs/lib:/src/mocap_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /src/mocap_ws/build/mocap_px4_relay

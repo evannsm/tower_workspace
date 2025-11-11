@@ -1,0 +1,6 @@
+/src/mocap_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/Marker.idl
+/src/mocap_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/Markers.idl
+/src/mocap_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/ImusInfo.idl
+/src/mocap_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/RigidBody.idl
+/src/mocap_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/RigidBodies.idl
+/src/mocap_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/FullState.idl

@@ -1,0 +1,3 @@
+[console_scripts]
+run = basic_clean_offboard.run_node:main
+

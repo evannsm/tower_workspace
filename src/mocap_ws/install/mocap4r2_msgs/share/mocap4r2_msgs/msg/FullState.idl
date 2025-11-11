@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mocap4r2_msgs/msg/FullState.msg
+// generated code does not contain a copyright notice
+
+
+module mocap4r2_msgs {
+  module msg {
+    typedef float float__3[3];
+    typedef float float__4[4];
+    struct FullState {
+      @verbatim (language="comment", text=
+        "Position in meters.               Frame of reference defined by local_frame.")
+      float__3 position;
+
+      @verbatim (language="comment", text=
+        "Linear velocity in meters/second. Frame of reference defined by local_frame.")
+      float__3 velocity;
+
+      @verbatim (language="comment", text=
+        "Linear accel in meters/second^2.  Frame of reference defined by local_frame.")
+      float__3 acceleration;
+
+      @verbatim (language="comment", text=
+        "Quaternion rotation from FRD body frame to reference frame.")
+      float__4 q;
+
+      @verbatim (language="comment", text=
+        "Angular velocity in radians/second. Frame of reference defined by local_frame.")
+      float__3 angular_velocity;
+    };
+  };
+};

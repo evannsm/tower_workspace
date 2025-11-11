@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating basic_clean_offboard.egg-info
+writing basic_clean_offboard.egg-info/PKG-INFO
+writing dependency_links to basic_clean_offboard.egg-info/dependency_links.txt
+writing entry points to basic_clean_offboard.egg-info/entry_points.txt
+writing requirements to basic_clean_offboard.egg-info/requires.txt
+writing top-level names to basic_clean_offboard.egg-info/top_level.txt
+writing manifest file 'basic_clean_offboard.egg-info/SOURCES.txt'
+reading manifest file 'basic_clean_offboard.egg-info/SOURCES.txt'
+writing manifest file 'basic_clean_offboard.egg-info/SOURCES.txt'
+running build_ext
+Creating /src/ros2_ws/install/basic_clean_offboard/lib/python3.10/site-packages/basic-clean-offboard.egg-link (link to .)
+Installing run script to /src/ros2_ws/install/basic_clean_offboard/lib/basic_clean_offboard
+
+Installed /src/ros2_ws/build/basic_clean_offboard
+running symlink_data
+creating /src/ros2_ws/install/basic_clean_offboard/share/ament_index
+creating /src/ros2_ws/install/basic_clean_offboard/share/ament_index/resource_index
+creating /src/ros2_ws/install/basic_clean_offboard/share/ament_index/resource_index/packages
+symbolically linking /src/ros2_ws/build/basic_clean_offboard/resource/basic_clean_offboard -> /src/ros2_ws/install/basic_clean_offboard/share/ament_index/resource_index/packages
+symbolically linking /src/ros2_ws/build/basic_clean_offboard/package.xml -> /src/ros2_ws/install/basic_clean_offboard/share/basic_clean_offboard

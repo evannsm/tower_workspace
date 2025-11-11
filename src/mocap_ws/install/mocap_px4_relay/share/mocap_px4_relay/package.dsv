@@ -1,0 +1,8 @@
+source;share/mocap_px4_relay/hook/cmake_prefix_path.ps1
+source;share/mocap_px4_relay/hook/cmake_prefix_path.dsv
+source;share/mocap_px4_relay/hook/cmake_prefix_path.sh
+source;share/mocap_px4_relay/local_setup.bash
+source;share/mocap_px4_relay/local_setup.dsv
+source;share/mocap_px4_relay/local_setup.ps1
+source;share/mocap_px4_relay/local_setup.sh
+source;share/mocap_px4_relay/local_setup.zsh

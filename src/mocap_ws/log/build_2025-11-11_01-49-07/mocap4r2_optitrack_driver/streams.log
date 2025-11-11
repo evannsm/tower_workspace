@@ -1,0 +1,82 @@
+[0.042s] Invoking command in '/src/mocap_ws/build/mocap4r2_optitrack_driver': AMENT_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control:/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control:/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/mocap4r2_control/lib:/src/mocap_ws/install/mocap4r2_msgs/lib:/src/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /src/mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver -DCMAKE_INSTALL_PREFIX=/src/mocap_ws/install/mocap4r2_optitrack_driver
+[0.153s] -- The C compiler identification is GNU 13.3.0
+[0.278s] -- The CXX compiler identification is GNU 13.3.0
+[0.329s] -- Detecting C compiler ABI info
+[0.538s] -- Detecting C compiler ABI info - done
+[0.567s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.568s] -- Detecting C compile features
+[0.568s] -- Detecting C compile features - done
+[0.591s] -- Detecting CXX compiler ABI info
+[0.870s] -- Detecting CXX compiler ABI info - done
+[0.892s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.893s] -- Detecting CXX compile features
+[0.894s] -- Detecting CXX compile features - done
+[0.905s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.179s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.379s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.455s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.482s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.515s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.550s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.693s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.700s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.909s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.944s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.986s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.159s] -- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.236s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[2.328s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.568s] -- Found mocap4r2_msgs: 0.0.3 (/src/mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[2.602s] -- Found mocap4r2_control_msgs: 0.0.7 (/src/mocap_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake)
+[2.638s] -- Found mocap4r2_control: 0.0.7 (/src/mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake)
+[2.672s] -- Found ament_cmake_copyright: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)
+[2.677s] -- Found ament_cmake_cppcheck: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[2.683s] -- Found ament_cmake_cpplint: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[2.689s] -- Found ament_cmake_lint_cmake: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)
+[2.693s] -- Found ament_cmake_xmllint: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)
+[2.698s] -- Found ament_cmake_uncrustify: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[2.709s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.860s] -- Configuring done (2.8s)
+[2.910s] -- Generating done (0.0s)
+[2.920s] -- Build files have been written to: /src/mocap_ws/build/mocap4r2_optitrack_driver
+[2.935s] Invoked command in '/src/mocap_ws/build/mocap4r2_optitrack_driver' returned '0': AMENT_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control:/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control:/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/mocap4r2_control/lib:/src/mocap_ws/install/mocap4r2_msgs/lib:/src/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /src/mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver -DCMAKE_INSTALL_PREFIX=/src/mocap_ws/install/mocap4r2_optitrack_driver
+[2.937s] Invoking command in '/src/mocap_ws/build/mocap4r2_optitrack_driver': AMENT_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control:/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control:/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/mocap4r2_control/lib:/src/mocap_ws/install/mocap4r2_msgs/lib:/src/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /src/mocap_ws/build/mocap4r2_optitrack_driver -- -j40 -l40
+[3.068s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_optitrack_driver.dir/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp.o[0m
+[10.767s] [ 50%] [32m[1mLinking CXX static library libmocap4r2_optitrack_driver.a[0m
+[10.900s] [ 50%] Built target mocap4r2_optitrack_driver
+[10.964s] [ 75%] [32mBuilding CXX object CMakeFiles/mocap4r2_optitrack_driver_main.dir/src/mocap4r2_optitrack_driver_main.cpp.o[0m
+[15.173s] [100%] [32m[1mLinking CXX executable mocap4r2_optitrack_driver_main[0m
+[15.680s] [100%] Built target mocap4r2_optitrack_driver_main
+[15.699s] Invoked command in '/src/mocap_ws/build/mocap4r2_optitrack_driver' returned '0': AMENT_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control:/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control:/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/mocap4r2_control/lib:/src/mocap_ws/install/mocap4r2_msgs/lib:/src/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /src/mocap_ws/build/mocap4r2_optitrack_driver -- -j40 -l40
+[15.702s] Invoking command in '/src/mocap_ws/build/mocap4r2_optitrack_driver': AMENT_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control:/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control:/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/mocap4r2_control/lib:/src/mocap_ws/install/mocap4r2_msgs/lib:/src/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /src/mocap_ws/build/mocap4r2_optitrack_driver
+[15.726s] -- Install configuration: ""
+[15.726s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/include//mocap4r2_optitrack_driver
+[15.727s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/include//mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.hpp
+[15.727s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/launch
+[15.727s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/launch/optitrack2.launch.py
+[15.727s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/config
+[15.728s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/config/mocap4r2_optitrack_driver_params.yaml
+[15.728s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/lib/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver_main
+[15.730s] -- Set non-toolchain portion of runtime path of "/src/mocap_ws/install/mocap4r2_optitrack_driver/lib/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver_main" to ""
+[15.731s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/lib/libmocap4r2_optitrack_driver.a
+[15.736s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/library_path.sh
+[15.736s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/library_path.dsv
+[15.736s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/ament_index/resource_index/package_run_dependencies/mocap4r2_optitrack_driver
+[15.737s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/ament_index/resource_index/parent_prefix_path/mocap4r2_optitrack_driver
+[15.738s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/ament_prefix_path.sh
+[15.738s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/ament_prefix_path.dsv
+[15.738s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/path.sh
+[15.739s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/path.dsv
+[15.739s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.bash
+[15.740s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.sh
+[15.742s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.zsh
+[15.743s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.dsv
+[15.744s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/package.dsv
+[15.744s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/ament_index/resource_index/packages/mocap4r2_optitrack_driver
+[15.745s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.745s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[15.746s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.746s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/mocap4r2_optitrack_driverConfig.cmake
+[15.747s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/mocap4r2_optitrack_driverConfig-version.cmake
+[15.748s] -- Installing: /src/mocap_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/package.xml
+[15.748s] Invoked command in '/src/mocap_ws/build/mocap4r2_optitrack_driver' returned '0': AMENT_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control:/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control:/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/mocap4r2_control/lib:/src/mocap_ws/install/mocap4r2_msgs/lib:/src/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /src/mocap_ws/build/mocap4r2_optitrack_driver

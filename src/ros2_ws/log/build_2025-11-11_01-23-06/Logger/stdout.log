@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating Logger.egg-info
+writing Logger.egg-info/PKG-INFO
+writing dependency_links to Logger.egg-info/dependency_links.txt
+writing entry points to Logger.egg-info/entry_points.txt
+writing requirements to Logger.egg-info/requires.txt
+writing top-level names to Logger.egg-info/top_level.txt
+writing manifest file 'Logger.egg-info/SOURCES.txt'
+reading manifest file 'Logger.egg-info/SOURCES.txt'
+writing manifest file 'Logger.egg-info/SOURCES.txt'
+running build_ext
+Creating /src/ros2_ws/install/Logger/lib/python3.10/site-packages/Logger.egg-link (link to .)
+
+Installed /src/ros2_ws/build/Logger
+running symlink_data
+creating /src/ros2_ws/install/Logger/share/ament_index
+creating /src/ros2_ws/install/Logger/share/ament_index/resource_index
+creating /src/ros2_ws/install/Logger/share/ament_index/resource_index/packages
+symbolically linking /src/ros2_ws/build/Logger/resource/Logger -> /src/ros2_ws/install/Logger/share/ament_index/resource_index/packages
+symbolically linking /src/ros2_ws/build/Logger/package.xml -> /src/ros2_ws/install/Logger/share/Logger

@@ -1,0 +1,11 @@
+/src/mocap_ws/build/mocap_px4_relay/CMakeFiles/uninstall.dir
+/src/mocap_ws/build/mocap_px4_relay/CMakeFiles/mocap_px4_relay_uninstall.dir
+/src/mocap_ws/build/mocap_px4_relay/CMakeFiles/optitrack_px4_relay.dir
+/src/mocap_ws/build/mocap_px4_relay/CMakeFiles/full_state_relay.dir
+/src/mocap_ws/build/mocap_px4_relay/CMakeFiles/test.dir
+/src/mocap_ws/build/mocap_px4_relay/CMakeFiles/edit_cache.dir
+/src/mocap_ws/build/mocap_px4_relay/CMakeFiles/rebuild_cache.dir
+/src/mocap_ws/build/mocap_px4_relay/CMakeFiles/list_install_components.dir
+/src/mocap_ws/build/mocap_px4_relay/CMakeFiles/install.dir
+/src/mocap_ws/build/mocap_px4_relay/CMakeFiles/install/local.dir
+/src/mocap_ws/build/mocap_px4_relay/CMakeFiles/install/strip.dir

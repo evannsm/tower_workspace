@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8b944edb382f2aea6a1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "px4_msgs__py",
+					"jsonFile" : "directory-px4_msgs__py-cbc5df308fac8a51490a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/src/mocap_ws/build/px4_msgs/px4_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "px4_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_px4_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_px4_msgs_egg-1177691a6d7f88af7b6b.json",
+					"name" : "ament_cmake_python_build_px4_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_px4_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_px4_msgs-5124f6f909708c6946b4.json",
+					"name" : "ament_cmake_python_copy_px4_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs-095c6d91ba919c6c9120.json",
+					"name" : "px4_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__cpp-2988095200fe2e4b1e0e.json",
+					"name" : "px4_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "px4_msgs__py::@2036f14245c7957b8037",
+					"jsonFile" : "target-px4_msgs__py-c9317a56b41a4d98a3ca.json",
+					"name" : "px4_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_generator_c-126f21e812e3aa5dccc7.json",
+					"name" : "px4_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_generator_py-b43704647cf49625ff4b.json",
+					"name" : "px4_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_generator_type_description-f8a6f769bb7c53a2effb.json",
+					"name" : "px4_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_c-e7dbe7f61408993bb064.json",
+					"name" : "px4_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_cpp-ed8af920acd16f2f3f38.json",
+					"name" : "px4_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_fastrtps_c-ee4ec678be44643a7b81.json",
+					"name" : "px4_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_fastrtps_cpp-488a89e98a79fc3368d6.json",
+					"name" : "px4_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_introspection_c-f7e8bb0520fb7f7aee47.json",
+					"name" : "px4_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_introspection_cpp-3a75ef4637f261f7e12e.json",
+					"name" : "px4_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs_s__rosidl_typesupport_c-22aa8c2d3273e17adbc1.json",
+					"name" : "px4_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs_s__rosidl_typesupport_fastrtps_c-b9caade95f5499f7317b.json",
+					"name" : "px4_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs_s__rosidl_typesupport_introspection_c-b621b411d83849d73492.json",
+					"name" : "px4_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs_uninstall-8e45fc1f569289f86417.json",
+					"name" : "px4_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-033e804292fd29a03c95.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/src/mocap_ws/build/px4_msgs",
+		"source" : "/src/mocap_ws/src/px4_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

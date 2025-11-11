@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-026c2ce5b8cfebafda69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mocap_px4_relay",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "full_state_relay::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_state_relay-b2768ea70a16e18dc766.json",
+					"name" : "full_state_relay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap_px4_relay_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap_px4_relay_uninstall-11ae27e960bce6631158.json",
+					"name" : "mocap_px4_relay_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "optitrack_px4_relay::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-optitrack_px4_relay-b68aa3d1deb60bfce146.json",
+					"name" : "optitrack_px4_relay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-79bceb814f55d312c255.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/src/mocap_ws/build/mocap_px4_relay",
+		"source" : "/src/mocap_ws/src/mocap_px4_relay"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,61 @@
+[1.000s] Invoking command in '/src/mocap_ws/src/mocap4r2/mocap4r2cli': AMENT_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/src/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/build/mocap4r2cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mocap4r2cli build --build-base /src/mocap_ws/build/mocap4r2cli/build install --record /src/mocap_ws/build/mocap4r2cli/install.log --single-version-externally-managed install_data
+[1.317s] running egg_info
+[1.318s] creating ../../../build/mocap4r2cli/mocap4r2cli.egg-info
+[1.338s] writing ../../../build/mocap4r2cli/mocap4r2cli.egg-info/PKG-INFO
+[1.339s] writing dependency_links to ../../../build/mocap4r2cli/mocap4r2cli.egg-info/dependency_links.txt
+[1.339s] writing entry points to ../../../build/mocap4r2cli/mocap4r2cli.egg-info/entry_points.txt
+[1.339s] writing requirements to ../../../build/mocap4r2cli/mocap4r2cli.egg-info/requires.txt
+[1.339s] writing top-level names to ../../../build/mocap4r2cli/mocap4r2cli.egg-info/top_level.txt
+[1.339s] writing manifest file '../../../build/mocap4r2cli/mocap4r2cli.egg-info/SOURCES.txt'
+[1.382s] reading manifest file '../../../build/mocap4r2cli/mocap4r2cli.egg-info/SOURCES.txt'
+[1.382s] adding license file 'LICENSE'
+[1.383s] writing manifest file '../../../build/mocap4r2cli/mocap4r2cli.egg-info/SOURCES.txt'
+[1.383s] running build
+[1.383s] running build_py
+[1.384s] creating /src/mocap_ws/build/mocap4r2cli/build
+[1.384s] creating /src/mocap_ws/build/mocap4r2cli/build/lib
+[1.384s] creating /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli
+[1.384s] copying mocap4r2cli/__init__.py -> /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli
+[1.384s] creating /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/api
+[1.384s] copying mocap4r2cli/api/__init__.py -> /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/api
+[1.385s] creating /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/command
+[1.385s] copying mocap4r2cli/command/mocap4r2.py -> /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/command
+[1.385s] copying mocap4r2cli/command/__init__.py -> /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/command
+[1.385s] creating /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb
+[1.385s] copying mocap4r2cli/verb/stop.py -> /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb
+[1.385s] copying mocap4r2cli/verb/__init__.py -> /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb
+[1.385s] copying mocap4r2cli/verb/status.py -> /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb
+[1.386s] copying mocap4r2cli/verb/start.py -> /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb
+[1.386s] running install
+[1.394s] running install_lib
+[1.415s] creating /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli
+[1.415s] creating /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/api
+[1.416s] copying /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/api/__init__.py -> /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/api
+[1.416s] creating /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/command
+[1.416s] copying /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/command/mocap4r2.py -> /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/command
+[1.416s] copying /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/command/__init__.py -> /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/command
+[1.416s] creating /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb
+[1.416s] copying /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb/stop.py -> /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb
+[1.417s] copying /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb/__init__.py -> /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb
+[1.417s] copying /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb/status.py -> /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb
+[1.417s] copying /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb/start.py -> /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb
+[1.417s] copying /src/mocap_ws/build/mocap4r2cli/build/lib/mocap4r2cli/__init__.py -> /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli
+[1.417s] byte-compiling /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/api/__init__.py to __init__.cpython-312.pyc
+[1.418s] byte-compiling /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/command/mocap4r2.py to mocap4r2.cpython-312.pyc
+[1.418s] byte-compiling /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/command/__init__.py to __init__.cpython-312.pyc
+[1.418s] byte-compiling /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb/stop.py to stop.cpython-312.pyc
+[1.419s] byte-compiling /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb/__init__.py to __init__.cpython-312.pyc
+[1.420s] byte-compiling /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb/status.py to status.cpython-312.pyc
+[1.421s] byte-compiling /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb/start.py to start.cpython-312.pyc
+[1.422s] byte-compiling /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/__init__.py to __init__.cpython-312.pyc
+[1.422s] running install_data
+[1.422s] copying package.xml -> /src/mocap_ws/install/mocap4r2cli/share/mocap4r2cli
+[1.422s] creating /src/mocap_ws/install/mocap4r2cli/share/ament_index
+[1.423s] creating /src/mocap_ws/install/mocap4r2cli/share/ament_index/resource_index
+[1.423s] creating /src/mocap_ws/install/mocap4r2cli/share/ament_index/resource_index/packages
+[1.423s] copying resource/mocap4r2cli -> /src/mocap_ws/install/mocap4r2cli/share/ament_index/resource_index/packages
+[1.423s] running install_egg_info
+[1.446s] Copying ../../../build/mocap4r2cli/mocap4r2cli.egg-info to /src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli-0.0.1-py3.12.egg-info
+[1.448s] running install_scripts
+[1.599s] writing list of installed files to '/src/mocap_ws/build/mocap4r2cli/install.log'
+[1.637s] Invoked command in '/src/mocap_ws/src/mocap4r2/mocap4r2cli' returned '0': AMENT_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/src/mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/build/mocap4r2cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/src/mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mocap4r2cli build --build-base /src/mocap_ws/build/mocap4r2cli/build install --record /src/mocap_ws/build/mocap4r2cli/install.log --single-version-externally-managed install_data

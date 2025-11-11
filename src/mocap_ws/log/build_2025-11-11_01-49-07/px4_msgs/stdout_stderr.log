@@ -1,0 +1,925 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_cppcheck: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_cmake_flake8: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+-- Configuring done (5.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /src/mocap_ws/build/px4_msgs
+[  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  0%] Built target ament_cmake_python_copy_px4_msgs
+running egg_info
+creating px4_msgs.egg-info
+writing px4_msgs.egg-info/PKG-INFO
+writing dependency_links to px4_msgs.egg-info/dependency_links.txt
+writing top-level names to px4_msgs.egg-info/top_level.txt
+writing manifest file 'px4_msgs.egg-info/SOURCES.txt'
+reading manifest file 'px4_msgs.egg-info/SOURCES.txt'
+writing manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[  0%] Built target ament_cmake_python_build_px4_msgs_egg
+[  0%] Built target px4_msgs__rosidl_generator_type_description
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  1%] Built target px4_msgs__cpp
+[  2%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/actuator_armed__functions.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/actuator_inhibit__description.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/actuator_armed__type_support.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/actuator_inhibit__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/actuator_controls_status__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/actuator_armed__description.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/actuator_outputs__description.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/battery_status__description.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/actuator_motors__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/actuator_controls_status__type_support.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/actuator_motors__description.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/full_state__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/actuator_motors__type_support.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/actuator_outputs__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/full_state__description.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/actuator_outputs__type_support.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/actuator_inhibit__type_support.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/actuator_controls_status__description.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/battery_status__type_support.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/full_state__type_support.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/offboard_control_mode__description.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/battery_status__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/rc_channels__description.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/offboard_control_mode__type_support.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/rc_channels__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/offboard_control_mode__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/rc_channels__type_support.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/trajectory_setpoint__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/trajectory_setpoint__description.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/trajectory_setpoint__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_command__description.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_command__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_command__type_support.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_command_ack__type_support.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_control_mode__description.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_command_ack__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_control_mode__type_support.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_global_position__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_control_mode__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_command_ack__description.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_global_position__type_support.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_local_position__type_support.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_local_position__description.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_rates_setpoint__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_local_position__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_global_position__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_rates_setpoint__type_support.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_rates_setpoint__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_status__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_status__description.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_status__type_support.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_thrust_setpoint__description.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_thrust_setpoint__functions.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_odometry__functions.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_torque_setpoint__functions.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_thrust_setpoint__type_support.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_odometry__description.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_torque_setpoint__type_support.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_torque_setpoint__description.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/srv/detail/vehicle_command__description.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/msg/detail/vehicle_odometry__type_support.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/srv/detail/vehicle_command__functions.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_c.dir/rosidl_generator_c/px4_msgs/srv/detail/vehicle_command__type_support.c.o[0m
+[ 28%] [32m[1mLinking C shared library libpx4_msgs__rosidl_generator_c.so[0m
+[ 28%] Built target px4_msgs__rosidl_generator_c
+[ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/actuator_controls_status__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/actuator_inhibit__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_global_position__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/srv/vehicle_command__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/full_state__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command_ack__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/actuator_outputs__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/actuator_motors__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_channels__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/actuator_armed__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_rates_setpoint__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library libpx4_msgs__rosidl_typesupport_c.so[0m
+[ 41%] Built target px4_msgs__rosidl_typesupport_c
+[ 41%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/battery_status__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/actuator_controls_status__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/actuator_armed__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/offboard_control_mode__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/actuator_motors__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_status__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rc_channels__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/full_state__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_rates_setpoint__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_command_ack__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_global_position__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_thrust_setpoint__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/actuator_outputs__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_local_position__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/trajectory_setpoint__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/srv/detail/vehicle_command__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/actuator_inhibit__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_command__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_odometry__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_torque_setpoint__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_control_mode__type_support.cpp.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/actuator_inhibit__type_support.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/actuator_armed__type_support.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/actuator_motors__type_support.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/offboard_control_mode__type_support.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/full_state__type_support.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/actuator_controls_status__type_support.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/actuator_outputs__type_support.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/rc_channels__type_support.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/trajectory_setpoint__type_support.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command__type_support.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_control_mode__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_global_position__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command_ack__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_thrust_setpoint__type_support.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_torque_setpoint__type_support.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_rates_setpoint__type_support.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__type_support.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/srv/detail/vehicle_command__type_support.c.o[0m
+[ 59%] [32m[1mLinking CXX shared library libpx4_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 59%] [32m[1mLinking C shared library libpx4_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 59%] Built target px4_msgs__rosidl_typesupport_introspection_cpp
+[ 59%] Built target px4_msgs__rosidl_typesupport_introspection_c
+[ 59%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/actuator_armed__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/offboard_control_mode__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/actuator_controls_status__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/battery_status__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/actuator_inhibit__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/actuator_motors__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/full_state__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/actuator_outputs__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/trajectory_setpoint__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/vehicle_rates_setpoint__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/vehicle_command__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/rc_channels__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/vehicle_torque_setpoint__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/vehicle_command_ack__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/vehicle_global_position__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/vehicle_local_position__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/vehicle_thrust_setpoint__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/vehicle_control_mode__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/vehicle_status__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/vehicle_odometry__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/srv/detail/dds_fastrtps/vehicle_command__type_support.cpp.o[0m
+[ 68%] [32m[1mLinking CXX shared library libpx4_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 68%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp
+[ 68%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/actuator_motors__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/battery_status__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/actuator_controls_status__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/actuator_armed__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/rc_channels__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/full_state__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/actuator_inhibit__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/actuator_outputs__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/offboard_control_mode__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/vehicle_odometry__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/vehicle_command__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/vehicle_command_ack__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/vehicle_control_mode__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/vehicle_rates_setpoint__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/vehicle_local_position__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/vehicle_status__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/msg/vehicle_global_position__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4_msgs/srv/vehicle_command__type_support.cpp.o[0m
+[ 78%] [32m[1mLinking CXX shared library libpx4_msgs__rosidl_typesupport_cpp.so[0m
+[ 78%] Built target px4_msgs__rosidl_typesupport_cpp
+[ 79%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/actuator_inhibit__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/actuator_motors__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/actuator_armed__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/battery_status__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/actuator_controls_status__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/vehicle_local_position__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/rc_channels__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/vehicle_global_position__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/actuator_outputs__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/trajectory_setpoint__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/offboard_control_mode__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/full_state__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/vehicle_odometry__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/vehicle_command_ack__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/vehicle_control_mode__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/vehicle_torque_setpoint__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/vehicle_thrust_setpoint__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/vehicle_rates_setpoint__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/srv/detail/vehicle_command__type_support_c.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/vehicle_status__type_support_c.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/vehicle_command__type_support_c.cpp.o[0m
+[ 87%] [32m[1mLinking CXX shared library libpx4_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 87%] Built target px4_msgs__rosidl_typesupport_fastrtps_c
+[ 87%] Built target px4_msgs
+[ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 87%] Built target px4_msgs__py
+[ 88%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_offboard_control_mode_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_actuator_outputs_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_full_state_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_vehicle_command_ack_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_rc_channels_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_actuator_inhibit_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_actuator_armed_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_vehicle_command_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_vehicle_control_mode_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_actuator_controls_status_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_vehicle_global_position_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_vehicle_status_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_trajectory_setpoint_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_vehicle_local_position_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_vehicle_thrust_setpoint_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/srv/_vehicle_command_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_battery_status_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_vehicle_odometry_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_vehicle_torque_setpoint_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_actuator_motors_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/px4_msgs__rosidl_generator_py.dir/rosidl_generator_py/px4_msgs/msg/_vehicle_rates_setpoint_s.c.o[0m
+[ 97%] [32m[1mLinking C shared library libpx4_msgs__rosidl_generator_py.so[0m
+[ 97%] Built target px4_msgs__rosidl_generator_py
+[ 97%] [32mBuilding C object CMakeFiles/px4_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/px4_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/px4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/px4_msgs/px4_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[ 99%] [32m[1mLinking C shared module rosidl_generator_py/px4_msgs/px4_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/px4_msgs/px4_msgs_s__rosidl_typesupport_c.so[0m
+[100%] Built target px4_msgs_s__rosidl_typesupport_introspection_c
+[100%] Built target px4_msgs_s__rosidl_typesupport_fastrtps_c
+[100%] Built target px4_msgs_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Installing: /src/mocap_ws/install/px4_msgs/share/ament_index/resource_index/rosidl_interfaces/px4_msgs
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/ActuatorArmed.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/ActuatorInhibit.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/ActuatorControlsStatus.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/ActuatorMotors.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/ActuatorOutputs.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/BatteryStatus.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/FullState.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/OffboardControlMode.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/RcChannels.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/TrajectorySetpoint.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleCommand.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleCommandAck.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleControlMode.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleGlobalPosition.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleLocalPosition.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleRatesSetpoint.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleStatus.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleThrustSetpoint.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleTorqueSetpoint.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleOdometry.json
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/srv/VehicleCommand.json
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/vehicle_command.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_global_position.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__type_support.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__struct.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__description.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__functions.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__functions.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/trajectory_setpoint.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_command.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_command_ack.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/actuator_outputs.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/battery_status.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/actuator_inhibit.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_rates_setpoint.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_torque_setpoint.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/actuator_controls_status.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_thrust_setpoint.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_status.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_odometry.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_control_mode.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/rc_channels.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_local_position.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/actuator_armed.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/offboard_control_mode.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/full_state.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/actuator_motors.h
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/environment/library_path.sh
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/environment/library_path.dsv
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__rosidl_typesupport_fastrtps_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/vehicle_command.hpp
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/trajectory_setpoint.hpp
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__struct.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__type_support.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__traits.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__builder.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/battery_status.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_torque_setpoint.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_status.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_command.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/actuator_outputs.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/rc_channels.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/actuator_armed.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_control_mode.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_thrust_setpoint.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/offboard_control_mode.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/full_state.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/actuator_controls_status.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/actuator_inhibit.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_command_ack.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_rates_setpoint.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_global_position.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_local_position.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/actuator_motors.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_odometry.hpp
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/dds_fastrtps
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/dds_fastrtps
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__rosidl_typesupport_introspection_c.h
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__type_support.c
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/srv/detail/vehicle_command__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg
+-- Up-to-date: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_inhibit__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_control_mode__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/rc_channels__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_motors__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_outputs__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/full_state__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_thrust_setpoint__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_command_ack__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_torque_setpoint__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_rates_setpoint__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_global_position__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_controls_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__type_support.cpp
+-- Installing: /src/mocap_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/actuator_armed__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/environment/pythonpath.sh
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/environment/pythonpath.dsv
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs-2.0.1-py3.12.egg-info
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs-2.0.1-py3.12.egg-info/top_level.txt
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs-2.0.1-py3.12.egg-info/dependency_links.txt
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs-2.0.1-py3.12.egg-info/SOURCES.txt
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs-2.0.1-py3.12.egg-info/PKG-INFO
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/px4_msgs_s__rosidl_typesupport_introspection_c.so
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/srv
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/srv/_vehicle_command_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/srv/_vehicle_command.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/srv/__init__.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/px4_msgs_s__rosidl_typesupport_c.so
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_local_position_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_command_ack.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_torque_setpoint.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_actuator_armed_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_battery_status.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_rates_setpoint.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_actuator_controls_status.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_thrust_setpoint_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_actuator_armed.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_offboard_control_mode.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_battery_status_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_rc_channels_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_rates_setpoint_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_actuator_motors.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_full_state.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_global_position_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_full_state_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_command_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_command.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_control_mode_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_offboard_control_mode_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_actuator_inhibit_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_global_position.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_actuator_motors_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_trajectory_setpoint_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_trajectory_setpoint.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_control_mode.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_thrust_setpoint.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_odometry_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/__init__.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_actuator_inhibit.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_actuator_outputs_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_odometry.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_rc_channels.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_status_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_actuator_controls_status_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_command_ack_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_torque_setpoint_s.c
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_local_position.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_actuator_outputs.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_status.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/px4_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/__init__.py
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_introspection_c.c
+Listing '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/__init__.py'...
+Listing '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/__init__.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_actuator_armed.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_actuator_controls_status.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_actuator_inhibit.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_actuator_motors.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_actuator_outputs.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_battery_status.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_full_state.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_offboard_control_mode.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_rc_channels.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_trajectory_setpoint.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_command.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_command_ack.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_control_mode.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_global_position.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_local_position.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_odometry.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_rates_setpoint.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_status.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_thrust_setpoint.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/msg/_vehicle_torque_setpoint.py'...
+Listing '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/srv'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/srv/__init__.py'...
+Compiling '/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/srv/_vehicle_command.py'...
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/px4_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/px4_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/px4_msgs_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/px4_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/px4_msgs_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/src/mocap_ws/install/px4_msgs/lib/python3.12/site-packages/px4_msgs/px4_msgs_s__rosidl_typesupport_c.so" to ""
+-- Installing: /src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/src/mocap_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_generator_py.so" to ""
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/ActuatorArmed.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/ActuatorInhibit.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/ActuatorControlsStatus.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/ActuatorMotors.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/ActuatorOutputs.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/BatteryStatus.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/FullState.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/OffboardControlMode.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/RcChannels.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/TrajectorySetpoint.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleCommand.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleCommandAck.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleControlMode.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleGlobalPosition.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleLocalPosition.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleRatesSetpoint.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleStatus.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleThrustSetpoint.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleTorqueSetpoint.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleOdometry.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/srv/VehicleCommand.idl
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/ActuatorArmed.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/ActuatorInhibit.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/ActuatorControlsStatus.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/ActuatorMotors.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/ActuatorOutputs.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/BatteryStatus.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/FullState.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/OffboardControlMode.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/RcChannels.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/TrajectorySetpoint.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleCommand.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleCommandAck.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleControlMode.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleGlobalPosition.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleLocalPosition.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleRatesSetpoint.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleStatus.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleThrustSetpoint.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleTorqueSetpoint.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/msg/VehicleOdometry.msg
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/srv/VehicleCommand.srv
+-- Installing: /src/mocap_ws/install/px4_msgs/share/ament_index/resource_index/package_run_dependencies/px4_msgs
+-- Installing: /src/mocap_ws/install/px4_msgs/share/ament_index/resource_index/parent_prefix_path/px4_msgs
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/environment/ament_prefix_path.sh
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/environment/ament_prefix_path.dsv
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/environment/path.sh
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/environment/path.dsv
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/local_setup.bash
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/local_setup.sh
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/local_setup.zsh
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/local_setup.dsv
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/package.dsv
+-- Installing: /src/mocap_ws/install/px4_msgs/share/ament_index/resource_index/packages/px4_msgs
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/export_px4_msgs__rosidl_generator_cExport.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/export_px4_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/export_px4_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/export_px4_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/export_px4_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/export_px4_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/export_px4_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/export_px4_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/export_px4_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgsConfig.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/cmake/px4_msgsConfig-version.cmake
+-- Installing: /src/mocap_ws/install/px4_msgs/share/px4_msgs/package.xml

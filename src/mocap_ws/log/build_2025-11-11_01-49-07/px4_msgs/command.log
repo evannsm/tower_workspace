@@ -1,0 +1,6 @@
+Invoking command in '/src/mocap_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /src/mocap_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/src/mocap_ws/install/px4_msgs
+Invoked command in '/src/mocap_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /src/mocap_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/src/mocap_ws/install/px4_msgs
+Invoking command in '/src/mocap_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /src/mocap_ws/build/px4_msgs -- -j40 -l40
+Invoked command in '/src/mocap_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /src/mocap_ws/build/px4_msgs -- -j40 -l40
+Invoking command in '/src/mocap_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /src/mocap_ws/build/px4_msgs
+Invoked command in '/src/mocap_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /src/mocap_ws/build/px4_msgs

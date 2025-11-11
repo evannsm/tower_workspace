@@ -1,0 +1,86 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "px4_msgs/msg/FullState",
+      "fields": [
+        {
+          "name": "timestamp",
+          "type": {
+            "type_id": 9,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "timestamp_sample",
+          "type": {
+            "type_id": 9,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "position",
+          "type": {
+            "type_id": 58,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "velocity",
+          "type": {
+            "type_id": 58,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "acceleration",
+          "type": {
+            "type_id": 58,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "q",
+          "type": {
+            "type_id": 58,
+            "capacity": 4,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "angular_velocity",
+          "type": {
+            "type_id": 58,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "px4_msgs/msg/FullState",
+      "hash_string": "RIHS01_e63b1b8da60cb5e0a5111fc8153ccf40ec31ad4eef101ad7eb0c25e9159de028"
+    }
+  ]
+}

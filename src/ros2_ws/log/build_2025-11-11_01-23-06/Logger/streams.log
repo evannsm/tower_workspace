@@ -1,0 +1,23 @@
+[1.009s] Invoking command in '/src/ros2_ws/build/Logger': PYTHONPATH=/src/ros2_ws/build/Logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/src/ros2_ws/install/Logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /src/ros2_ws/build/Logger/build --no-deps symlink_data
+[1.296s] running develop
+[1.432s] running egg_info
+[1.432s] creating Logger.egg-info
+[1.433s] writing Logger.egg-info/PKG-INFO
+[1.433s] writing dependency_links to Logger.egg-info/dependency_links.txt
+[1.433s] writing entry points to Logger.egg-info/entry_points.txt
+[1.433s] writing requirements to Logger.egg-info/requires.txt
+[1.434s] writing top-level names to Logger.egg-info/top_level.txt
+[1.434s] writing manifest file 'Logger.egg-info/SOURCES.txt'
+[1.434s] reading manifest file 'Logger.egg-info/SOURCES.txt'
+[1.435s] writing manifest file 'Logger.egg-info/SOURCES.txt'
+[1.437s] running build_ext
+[1.437s] Creating /src/ros2_ws/install/Logger/lib/python3.10/site-packages/Logger.egg-link (link to .)
+[1.438s] 
+[1.438s] Installed /src/ros2_ws/build/Logger
+[1.438s] running symlink_data
+[1.439s] creating /src/ros2_ws/install/Logger/share/ament_index
+[1.439s] creating /src/ros2_ws/install/Logger/share/ament_index/resource_index
+[1.439s] creating /src/ros2_ws/install/Logger/share/ament_index/resource_index/packages
+[1.440s] symbolically linking /src/ros2_ws/build/Logger/resource/Logger -> /src/ros2_ws/install/Logger/share/ament_index/resource_index/packages
+[1.440s] symbolically linking /src/ros2_ws/build/Logger/package.xml -> /src/ros2_ws/install/Logger/share/Logger
+[1.481s] Invoked command in '/src/ros2_ws/build/Logger' returned '0': PYTHONPATH=/src/ros2_ws/build/Logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/src/ros2_ws/install/Logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /src/ros2_ws/build/Logger/build --no-deps symlink_data

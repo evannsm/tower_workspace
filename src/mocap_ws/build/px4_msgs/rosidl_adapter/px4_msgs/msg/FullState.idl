@@ -1,0 +1,46 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from px4_msgs/msg/FullState.msg
+// generated code does not contain a copyright notice
+
+
+module px4_msgs {
+  module msg {
+    typedef float float__3[3];
+    typedef float float__4[4];
+    module FullState_Constants {
+      const uint32 MESSAGE_VERSION = 0;
+    };
+    @verbatim (language="comment", text=
+      "Vehicle full state information data for ROS2-based control loops")
+    struct FullState {
+      @verbatim (language="comment", text=
+        "hrt_absolute_time()")
+      uint64 timestamp;
+
+      @verbatim (language="comment", text=
+        "same timing as odometry: imu_sample.time_us")
+      uint64 timestamp_sample;
+
+      @verbatim (language="comment", text=
+        "local frame is NED (same as vehicle_odometry/vehicle_local_position)" "\n"
+        "(x,y,z) in meters, NED")
+      float__3 position;
+
+      @verbatim (language="comment", text=
+        "(vx,vy,vz) in m/s, NED")
+      float__3 velocity;
+
+      @verbatim (language="comment", text=
+        "(ax,ay,az) in m/s^2, NED (linear accel)")
+      float__3 acceleration;
+
+      @verbatim (language="comment", text=
+        "quaternion (w,x,y,z): FRD body -> NED")
+      float__4 q;
+
+      @verbatim (language="comment", text=
+        "(p,q,r) in rad/s, body frame (FRD)")
+      float__3 angular_velocity;
+    };
+  };
+};

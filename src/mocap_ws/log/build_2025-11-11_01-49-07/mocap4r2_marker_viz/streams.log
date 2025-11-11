@@ -1,0 +1,78 @@
+[0.025s] Invoking command in '/src/mocap_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/mocap4r2_msgs/lib:/src/mocap_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /src/mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz -DCMAKE_INSTALL_PREFIX=/src/mocap_ws/install/mocap4r2_marker_viz
+[0.126s] -- The C compiler identification is GNU 13.3.0
+[0.259s] -- The CXX compiler identification is GNU 13.3.0
+[0.310s] -- Detecting C compiler ABI info
+[0.493s] -- Detecting C compiler ABI info - done
+[0.510s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.511s] -- Detecting C compile features
+[0.511s] -- Detecting C compile features - done
+[0.531s] -- Detecting CXX compiler ABI info
+[0.690s] -- Detecting CXX compiler ABI info - done
+[0.710s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.711s] -- Detecting CXX compile features
+[0.711s] -- Detecting CXX compile features - done
+[0.718s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.966s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.174s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.293s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.335s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.380s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.429s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.626s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.636s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.863s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.899s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.943s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.110s] -- Found mocap4r2_marker_viz_srvs: 0.0.7 (/src/mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake)
+[2.186s] -- Found mocap4r2_msgs: 0.0.3 (/src/mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[2.273s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.407s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.604s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.604s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/src/mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz/include>
+[2.605s] -- Configured cppcheck exclude dirs and/or files: 
+[2.607s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.607s] -- Configured cpplint exclude dirs and/or files: 
+[2.609s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.609s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.611s] -- Added test 'lint_cmake' to check CMake code style
+[2.613s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.615s] -- Added test 'uncrustify' to check C / C++ code style
+[2.615s] -- Configured uncrustify additional arguments: 
+[2.617s] -- Added test 'xmllint' to check XML markup files
+[2.621s] -- Configuring done (2.6s)
+[2.656s] -- Generating done (0.0s)
+[2.666s] -- Build files have been written to: /src/mocap_ws/build/mocap4r2_marker_viz
+[2.685s] Invoked command in '/src/mocap_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/mocap4r2_msgs/lib:/src/mocap_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /src/mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz -DCMAKE_INSTALL_PREFIX=/src/mocap_ws/install/mocap4r2_marker_viz
+[2.687s] Invoking command in '/src/mocap_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/mocap4r2_msgs/lib:/src/mocap_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /src/mocap_ws/build/mocap4r2_marker_viz -- -j40 -l40
+[2.780s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_NODE.dir/src/mocap4r2_marker_viz_node.cpp.o[0m
+[17.055s] [ 50%] [32m[1mLinking CXX static library libmocap4r2_marker_viz_NODE.a[0m
+[17.282s] [ 50%] Built target mocap4r2_marker_viz_NODE
+[17.312s] [ 75%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz.dir/src/mocap4r2_marker_viz_main.cpp.o[0m
+[21.809s] [100%] [32m[1mLinking CXX executable mocap4r2_marker_viz[0m
+[22.579s] [100%] Built target mocap4r2_marker_viz
+[22.612s] Invoked command in '/src/mocap_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/mocap4r2_msgs/lib:/src/mocap_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /src/mocap_ws/build/mocap4r2_marker_viz -- -j40 -l40
+[22.618s] Invoking command in '/src/mocap_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/mocap4r2_msgs/lib:/src/mocap_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /src/mocap_ws/build/mocap4r2_marker_viz
+[22.639s] -- Install configuration: ""
+[22.640s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/lib/libmocap4r2_marker_viz_NODE.a
+[22.656s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/lib/mocap4r2_marker_viz/mocap4r2_marker_viz
+[22.664s] -- Set non-toolchain portion of runtime path of "/src/mocap_ws/install/mocap4r2_marker_viz/lib/mocap4r2_marker_viz/mocap4r2_marker_viz" to ""
+[22.664s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/launch
+[22.665s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/launch/mocap4r2_marker_viz.launch.py
+[22.665s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/rviz
+[22.666s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/rviz/config.rviz
+[22.666s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/package_run_dependencies/mocap4r2_marker_viz
+[22.667s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/parent_prefix_path/mocap4r2_marker_viz
+[22.667s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/ament_prefix_path.sh
+[22.670s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/ament_prefix_path.dsv
+[22.671s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/path.sh
+[22.671s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/path.dsv
+[22.671s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.bash
+[22.671s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.sh
+[22.671s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.zsh
+[22.671s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.dsv
+[22.671s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.dsv
+[22.672s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/packages/mocap4r2_marker_viz
+[22.672s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/cmake/mocap4r2_marker_vizConfig.cmake
+[22.672s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/cmake/mocap4r2_marker_vizConfig-version.cmake
+[22.672s] -- Installing: /src/mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.xml
+[22.672s] Invoked command in '/src/mocap_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/src/mocap_ws/install/mocap4r2_msgs:/src/mocap_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/src/mocap_ws/install/mocap4r2_msgs/lib:/src/mocap_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/src/mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/src/mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /src/mocap_ws/build/mocap4r2_marker_viz

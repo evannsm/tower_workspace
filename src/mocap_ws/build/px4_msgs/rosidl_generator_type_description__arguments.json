@@ -1,0 +1,31 @@
+{
+  "package_name": "px4_msgs",
+  "output_dir": "/src/mocap_ws/build/px4_msgs/rosidl_generator_type_description/px4_msgs",
+  "idl_tuples": [
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/ActuatorArmed.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/ActuatorInhibit.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/ActuatorControlsStatus.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/ActuatorMotors.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/ActuatorOutputs.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/BatteryStatus.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/FullState.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/OffboardControlMode.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/RcChannels.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/TrajectorySetpoint.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/VehicleCommand.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/VehicleCommandAck.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/VehicleControlMode.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/VehicleGlobalPosition.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/VehicleLocalPosition.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/VehicleRatesSetpoint.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/VehicleStatus.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/VehicleThrustSetpoint.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/VehicleTorqueSetpoint.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/VehicleOdometry.idl",
+    "/src/mocap_ws/build/px4_msgs/rosidl_adapter/px4_msgs:srv/VehicleCommand.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

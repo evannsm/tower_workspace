@@ -1,0 +1,6 @@
+Invoking command in '/src/mocap_ws/build/mocap4r2_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /src/mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs -DCMAKE_INSTALL_PREFIX=/src/mocap_ws/install/mocap4r2_control_msgs
+Invoked command in '/src/mocap_ws/build/mocap4r2_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /src/mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs -DCMAKE_INSTALL_PREFIX=/src/mocap_ws/install/mocap4r2_control_msgs
+Invoking command in '/src/mocap_ws/build/mocap4r2_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /src/mocap_ws/build/mocap4r2_control_msgs -- -j40 -l40
+Invoked command in '/src/mocap_ws/build/mocap4r2_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /src/mocap_ws/build/mocap4r2_control_msgs -- -j40 -l40
+Invoking command in '/src/mocap_ws/build/mocap4r2_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /src/mocap_ws/build/mocap4r2_control_msgs
+Invoked command in '/src/mocap_ws/build/mocap4r2_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /src/mocap_ws/build/mocap4r2_control_msgs

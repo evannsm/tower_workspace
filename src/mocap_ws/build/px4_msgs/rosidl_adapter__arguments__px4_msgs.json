@@ -1,0 +1,26 @@
+{
+  "package_name": "px4_msgs",
+  "non_idl_tuples": [
+    "/src/mocap_ws/src/px4_msgs:msg/ActuatorArmed.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/ActuatorInhibit.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/ActuatorControlsStatus.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/ActuatorMotors.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/ActuatorOutputs.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/BatteryStatus.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/FullState.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/OffboardControlMode.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/RcChannels.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/TrajectorySetpoint.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/VehicleCommand.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/VehicleCommandAck.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/VehicleControlMode.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/VehicleGlobalPosition.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/VehicleLocalPosition.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/VehicleRatesSetpoint.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/VehicleStatus.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/VehicleThrustSetpoint.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/VehicleTorqueSetpoint.msg",
+    "/src/mocap_ws/src/px4_msgs:msg/VehicleOdometry.msg",
+    "/src/mocap_ws/src/px4_msgs:srv/VehicleCommand.srv"
+  ]
+}
