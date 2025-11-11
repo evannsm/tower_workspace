@@ -1,8 +1,4 @@
 *.pyc
 PX4-Autopilot/
 Micro-XRCE-DDS-Agent/
-mocap_ws/*
-*/build/
-*/install/
-*/log/
-src/ros2_ws/src/basic_clean_offboard/
+src/
